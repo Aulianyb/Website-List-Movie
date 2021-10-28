@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #242326;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.header{
+    padding: 10px;
+    text-align: left;
+    background: #6d5d94;
+    color: white;
+    font-size: 15px;
+    margin:0;
+}
+
+.subtitle{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.title{
+    margin: auto;
+    color: white;
+    width: 1000px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 100px;
+}
+
+.wrapper{
+    margin: auto;
+    width: 850px;
+}
+
+.category{
+    margin-left: 160px;
+    padding:10px;
+    margin:auto;
+    display: table;
+    table-layout: fixed;
+    border-spacing: 20px;
+}
+
+.movie{
+    display: table-cell;
+    
+}
+
+img {
+    border-radius: 10%;
+    border:2px solid #6d5d94;
+    height: 250px;
+}
+
+img:hover{
+    opacity: 0.5;
+    background-color: black;
+}
+
+.desc{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 170px;
+}
+
+.details{
+    background-color:#6d5d94;
+    margin:auto;
+    width: 800px;
+    padding: 10px;
+    height: 100%;
+}
+
+.text{
+    width: 365px;
+    margin-bottom: 10px;
+    margin: 10px;
+    position: absolute;
+    color: white;
+}
+
+.trailer, .text{
+    display: inline-block;
+}
+
+.judul:not(body) {
+    padding: 10px;
+    font-family: 'Zen Antique Soft', serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Moviedesc{
+    padding: 10px;
+    text-align: justify;
+}
+
+hr{
+    margin:auto;
+    width: 300px;
+    border: 2px solid white;
+}
+
+.info{
+    width: 800px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+    color: #6d5d94;
+    display: table;
+    table-layout: fixed;
+}
+
+.info span{
+    display: table-cell;
+    text-align: center;
+}
+
+.container{
+    width: 820px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+i{
+    color: #242326;
+}
+
+button{
+    border: 0;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #6d5d94;
+    border-radius: 5%;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
